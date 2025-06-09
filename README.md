@@ -5,4 +5,4 @@ Projeto Agrinho 2025
 - Recursos utilizados: HTML e CSS.
 
 - Link do Vercel: https://agrinho-2025-eight-nu.vercel.app/
-- Link do GitHub Pages: 
+- Link do GitHub Pages: https://felipe4192.github.io/Agrinho-2025/
