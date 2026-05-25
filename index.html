@@ -4,13 +4,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Agrinho 2025 - Festejando a conexão campo-cidade</title>
+    <title>Agrinho 2026 - Agro forte, futuro sustentável: equilíbrio entre produção e meio ambiente</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        #btn-saiba-mais {
+            background-color: #4CAF50; /* Verde combinando com o tema Agro */
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-top: 15px;
+        }
+        #btn-saiba-mais:hover {
+            background-color: #45a049;
+        }
+    </style>
 </head>
 
 <body>
     <header>
-        <h1>🌱 Conexão campo-cidade</h1>
+        <h1>🌱 Agro forte 💪</h1>
     </header>
 
     <section id="introducao">
@@ -23,23 +38,40 @@
             title="Imagem mostrando trabalhadores rurais em uma horta de agricultura familiar. Fonte: Unsplash, 2025."
             srcset="">
     </section>
+    
     <section id="desenvolvimento">
         <h2>Cores e Sons do Campo: A Influência Rural na Vida Urbana</h2>
         <p>Apesar de mais de 80% da população brasileira viver em áreas urbanas, a cultura rural ainda ressoa nas cidades, através da música, danças e festas tradicionais.
            A conexão entre o campo e a cidade é uma troca constante, onde as cores e os sons do interior transformam a vida urbana, enriquecendo a identidade cultural das grandes metrópoles.</p>
+        
+        <button id="btn-saiba-mais">Conheça mais sobre o Programa Agrinho</button>
+
+        <br><br>
+
         <img src="img/231114-wd-agroecologia-2023_pg20.jpg.webp" class="infografico" alt="Infográfico"
             title="Infográfico monstrando a importância da agricultura familiar para o Brasil. Fonte: G1, 2020."
             srcset="">
     </section>
+
     <section id="referencias">
         <h3>Referências</h3>
-        <p>Fonte das imagens  Google e Unsplash. </p>
-
+        <p>Fonte das imagens Google e Unsplash.</p>
     </section>
 
     <footer>
-        <p>&copy; 2025 Desenvolvido por Felipe Ramos da Silva</p>
+        <p>&copy; 2026 Desenvolvido por Felipe Ramos da Silva</p>
     </footer>
+
+    <script>
+        // Seleciona o botão pelo ID
+        const botaoSaibaMais = document.getElementById("btn-saiba-mais");
+
+        // Adiciona um evento de clique ao botão
+        botaoSaibaMais.addEventListener("click", function() {
+            // Abre o site do Agrinho em uma nova aba
+            window.open("https://www.sistemafaep.org.br/agrinho/", "_blank");
+        });
+    </script>
 
 </body>
 
